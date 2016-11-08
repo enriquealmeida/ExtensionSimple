@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Package xmlns='http://schemas.genexus.com/addin/v1.0'
+         id='0290bda2-2969-47b4-948a-5a0bb880b85f'
+         name='ExtensionSimple'>
+  <!-- Definicion de comandos -->
+  <Resources>
+    <Resource type="strings" name="GUG.Packages.ExtensionSimple.StringResources"/>
+  </Resources>
+  <Commands>
+    <!-- Acerca de -->
+    <CommandDefinition id="AboutExtensionSimple"  />
+  </Commands>
+  <!-- Estructura del menu -->
+  <Menus>
+    <Menu type="menubar">
+      <Popup refid='ToolsMenu' name='Tools' >
+        <Popup name="ExtensionSimple"   >
+
+            <Command refid="AboutExtensionSimple"  />
+
+
+        </Popup>
+      </Popup>
+    </Menu>
+  </Menus>
+</Package>
